@@ -1,5 +1,5 @@
 import XCTest
-@testable import YouTubeKit
+@testable import YouTubeFetchKit
 
 final class YouTubeKitTests: XCTestCase {
     private let YTM = YouTubeModel()
