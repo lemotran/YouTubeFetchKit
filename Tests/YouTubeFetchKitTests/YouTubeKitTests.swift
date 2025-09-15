@@ -143,7 +143,7 @@ final class YouTubeKitTests: XCTestCase {
         YTM.logger = logger
         
         struct ModulableResponse: YouTubeResponse {
-            static var headersType: YouTubeKit.HeaderTypes = .home // random headers, the request's data won't be checked.
+            static var headersType: YouTubeFetchKit.HeaderTypes = .home // random headers, the request's data won't be checked.
             
             static var parametersValidationList: ValidationList = [.browseId: .existenceValidator]
             
